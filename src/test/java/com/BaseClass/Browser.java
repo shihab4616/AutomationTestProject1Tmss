@@ -46,4 +46,10 @@ public class Browser {
 		driver.close();
 		
 	}
+	
+	public static void open_URL(String URL) 
+	{ 
+		driver.get(URL);
+		
+	}	
 }
