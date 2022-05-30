@@ -11,10 +11,10 @@ public class Browser {
 
 	public static void main(String[] args) {
 
-		chrome_launch();
+		//chrome_launch();
 		//chrome_close();
 		//firefox_launch();
-		//edge_launch();
+		edge_launch();
 
 	}
 
@@ -37,7 +37,7 @@ public class Browser {
 
 		System.setProperty("webdriver.edge.driver", "./driver/msedgedriver.exe");
 		driver = new EdgeDriver();
-		driver.get("http://www.youtube.com");
+		driver.get("http://www.google.com");
 		driver.manage().window().maximize();
 	}
 	
