@@ -24,7 +24,6 @@ public class Add_New_User extends Login {
 
 		driver.get("https://timf.imikrof.com/s/users-create");
 
-
 		WebElement FullName= driver.findElement(By.name("full_name"));
 		FullName.click();
 		FullName.sendKeys("Automation Test");
